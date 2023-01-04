@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Links Personalizados</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+    
+            li {
+                margin-top: 8px;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                color: brown;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            a:active {
+                color: blue;
+            }
+
+            .especial:hover {
+                border: 1px solid brown;
+                background-color: rgba(206, 158, 138, 0.856);
+                color: brown;
+            }
+
+            .especial {
+                color: white;
+                background-color: brown;
+                padding: 4px;
+                border-radius: 5px;
+            }
+
+            .especial::after {
+                content: " «"
+            }
+
+            .especial::before {
+                content: "» "
+            }
+
+            #back {
+                background-color: brown;
+                color: white;
+                padding: 5px;
+                border-radius: 2px;
+                box-shadow: 2px 3px 5px rgba(39, 11, 11, 0.562);
+            }
+
+            #back:hover {
+                border: 1px solid brown;
+                color: brown;
+                background-color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Links marotos</h1>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=xb-cS4TO2VE&ab_channel=WesleiSantosVEVO" target="_blank">Sim, o rei está voltando</a>
+            </li>
+                
+            <li>
+                <a href="https://www.youtube.com/watch?v=TGbwauvYGxo&ab_channel=TodahClassics" class="especial" target="_blank">O rei está voltando</a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/watch?v=hC_7MnFOobM&ab_channel=VIVERLEMBRAN%C3%87A" target="_blank">Aleluia! Ele vem me buscar!</a>
+            </li>
+        </ul>
+
+        <a href="pseudoclass.html" id="back">Return to Principal Page</a>
+
+        
+    </body>
+</html>

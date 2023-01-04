@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            header {
+                background-color: bisque;
+                padding: 5px 5px 5px;
+                margin: auto;
+                border-radius: 8px 20px;
+                box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
+            }
+
+            header > h1 {
+                text-align: center;
+                margin-bottom: 30px;
+                font-style: italic;
+                color:rgb(136, 55, 22);
+            }
+
+            nav {
+                
+                width: 365px;
+                padding: 8px;
+                padding-right: 0px;
+                margin: auto;
+            }
+
+            nav > a {
+                margin-right: 20px;
+                text-decoration: none;
+                color: rgb(250, 98, 38);
+                background-color: rgba(56, 42, 42, 0.678);
+                padding: 8px;
+            }
+
+            nav > a:hover {
+                text-decoration: underline;
+                color: white;
+                background-color: black;
+            }
+
+            main {
+                background-color: blanchedalmond;
+                padding-left: 8px;
+                padding-top: 1px;
+                padding-bottom: 2px;
+                padding-right: 8px;
+                margin-top: 10px;
+                border-radius: 5px;
+                box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.308);
+
+            }
+
+            #title-content {
+                text-align: center;
+                font-style: italic;
+                color:rgb(112, 44, 18);
+            }
+
+            article > h2 {
+                color:rgb(185, 76, 32);
+                
+            }
+
+            article > p {
+                text-align: justify;
+            }
+
+            aside {
+                margin-right: 10px;
+            }
+
+            aside > p {
+                text-align: right;
+            }
+
+
+
+            footer {
+                background-color: beige;
+                margin: 0px;
+                margin-top: 100px;
+            }
+
+            footer > p {
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Título</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Noticias</a>
+                <a href="#">Destaque</a>
+                <a href="#">Autor</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="title-content">
+                <h1>Aqui vai um título</h1>
+            </section>
+
+            <section>
+                <article>
+                    <h2>Assunto X</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quos error reprehenderit quasi ex qui possimus nisi velit debitis architecto iusto, consectetur quo placeat cumque dolore neque facilis cupiditate unde.</p>
+                    <aside>
+                        <p>Escrito pelo Autor</p>
+                    </aside>
+                </article>
+            </section>    
+            <section>    
+                <article>
+                    <h2>Assunto Y</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quisquam illo omnis mollitia magnam maiores porro enim ea assumenda cum, quia rerum exercitationem animi incidunt quam explicabo officia! Cupiditate, consectetur.</p>
+                    <aside>
+                        <p>Escrito pelo Autor</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>Criado pelo Desenvolvedor</p>
+        </footer>
+    </body>
+</html>

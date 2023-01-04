@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PseudoClasse CSS</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            div {
+                
+                display: inline-block;
+                background-color: lightgray;
+                border: 1px solid black;
+                box-shadow: -3px 5px 3px rgba(88, 81, 81, 0.507);
+                text-align: center;
+                height: 200px;
+                width: 200px;
+                
+            }
+
+            div:hover {
+                background-color: aqua;
+                width: 300px;
+            }
+
+            #d1:hover {
+                background-color: black;
+                color: white;
+            }
+
+            #d2:hover {
+                background-color: red;
+                color: rgb(255, 166, 0);
+            }
+
+            #d3:hover {
+                color:blanchedalmond;
+            }
+
+            a {
+                text-align: center;
+                background-color:rgb(255, 166, 0);
+                border: 1px solid black;
+                display: block;
+                width: 200px;
+                padding: 2px 10px;
+                margin: auto;
+                margin-top: 10px;
+                border-radius: 1px 12px;
+                text-decoration: none;
+                color: rgba(206, 57, 219, 0.904);
+                font-weight: bold;
+            }
+
+            a:hover {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="d1">01</div>
+        <div id="d2">02</div>
+        <div id="d3">03</div>
+
+        
+            <a href="textsurprise.html">Supresa!</a>
+
+            <a href="linksperso.html">Te aprochega nos links!</a>
+        
+    </body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: #010326;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: #F24C27;
+}
+
+h2 {
+    color: #A62626;
+}
+
+p {
+    text-align: justify;
+    color: #F2F2F2;
+}
