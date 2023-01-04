@@ -5,6 +5,8 @@ Aqui estão os códigos dos exercícios e desafios do curso! Confira!
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+![Preview](./capa-repo-guana/html-css-thumb1.jpg)
+
 <br>
 
 ># <a href="https://www.cursoemvideo.com/">Acesse aqui o Curso em Vídeo<a>
